@@ -30,7 +30,7 @@ class GerenciadorContatos {
         //
         for (const contato of this.contatos) {
             const li = document.createElement('li');
-            li.innerHTML = `${contato.nome} - ${contato.email} - ${contato.telefone}: ${contato.mensagem}`;
+            li.innerHTML = `${contato.nome} <br> ${contato.email} <br> ${contato.telefone} <br><br> ${contato.mensagem}`;
             listaContatos.appendChild(li);
         }
     }

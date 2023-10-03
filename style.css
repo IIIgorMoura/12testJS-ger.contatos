@@ -11,6 +11,8 @@ body {
 
     width: 100vw;
     height: 100vh;
+
+    background-color: #000;
 }
 
 form {
@@ -37,6 +39,7 @@ li {
 
 .botoes button {
     margin: 0 15px 20px;
+    justify-content: center;
 }
 
 #contato-form {
@@ -88,5 +91,23 @@ button:hover {
     display: flex;
     flex-direction: row;
 
-    height: 200px;
+    height: 50px;
+}
+
+li {
+    display: flex;
+    overflow: auto;
+
+    padding: 50px;
+    width: 400px;
+    border-radius: 15px;
+
+    align-items: center;
+
+    color: #fff;
+    background-color: rgb(41, 80, 219, 0.7);    
+}
+
+h1 {
+    color: #fff;
 }
